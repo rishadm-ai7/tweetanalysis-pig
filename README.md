@@ -11,3 +11,8 @@ Now, we have to analyse the Sentiment for the tweet by using the words in the te
 Use Join operation  to get the ratings for all the words in a tweet message and find its average to find its actual rating.
 
 Finally need to display the rated value for each tweet.
+
+
+To run:
+inside grunt shell : exec /home/rishad/tweetanalysis.pig
+in terminal : pig -x local /home/rishad/tweetanalysis.pig
